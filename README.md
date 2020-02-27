@@ -1,4 +1,4 @@
-# ocds_procurementType_extension
+# ocds_localProcurementCategory_extension
 
 In Honduras, the local procurement systems use their own procurement categories that differ of the ones used in `tender.mainProcurementCategory`.
 
