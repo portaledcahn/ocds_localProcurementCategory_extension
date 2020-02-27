@@ -2,25 +2,29 @@
   "definitions": {
     "Tender": {
       "properties": {
-        "procurementType": {
-          "title": "Procurement Type",
-          "description": "A type of procurement. A local field to define multiples procurement categories example: goods and services.",
+        "localProcurementCategory": {
+          "title": "Local Procurement Category",
+          "description": "The procurement category as defined in the source systems.",
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "codelist": "localProcurementCategory.csv",
+          "openCodelist": true
         }
       }
     },
     "Contract": {
       "properties": {
-        "procurementType": {
-          "title": "Procurement Type",
-          "description": "A type of procurement. A local field to define multiples procurement categories example: goods and services.",
+        "localProcurementCategory": {
+          "title": "Local Procurement Category",
+          "description": "The procurement category as defined in the source systems.",
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "codelist": "localProcurementCategory.csv",
+          "openCodelist": true
         }
       }
     }

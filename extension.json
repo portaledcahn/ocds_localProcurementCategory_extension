@@ -3,11 +3,15 @@
     "en": "ocds_procurementType_extension"
   },
   "description": {
-    "en": "In public procurement information systems, purchase categories or contract types, as it is called in the context, are grouped into more than one, for example: Goods and / or services.\n\nThis extension adds fields `tender/procurementCategory` and `contracts/n/ procurementCategory` to meet such use cases."
+    "en": "This extension adds a field for procurement categories used in the source systems.",
+    "es": "Esta extensión agrega un campo para categorías de adquisición utilizadas en los sistemas fuente."
   },
   "documentationUrl": {
-    "en": "https://github.com/portaledcahn/ocds_procurementCategory_extension/blob/master/README.md"
+    "en": "https://github.com/portaledcahn/ocds_procurementCategory_extension/"
   },
+  "codelists": [
+    "localProcurementCategory.csv"
+  ],
   "compatibility": [
     "1.1"
   ],

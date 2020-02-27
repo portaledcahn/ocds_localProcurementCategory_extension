@@ -1,5 +1,5 @@
 # ocds_procurementType_extension
 
-In public procurement information systems, purchase categories or contract types, as it is called in the context, are grouped into more than one, for example: Goods and / or services.
+In Honduras, the local procurement systems use their own procurement categories that differ of the ones used in `tender.mainProcurementCategory`.
 
-This extension adds fields `tender/procurementCategory` and `contract/procurementCategory` to meet such use cases.
+This extension adds the localProcurementCategory field to include the local categories used in OCDS data.
