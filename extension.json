@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "ocds_procurementType_extension"
+    "en": "Local Procurement Category"
   },
   "description": {
     "en": "This extension adds a field for procurement categories used in the source systems.",
